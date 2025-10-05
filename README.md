@@ -12,16 +12,16 @@ FEATURES:
 
 USAGE:
 1. Clone the repository:
-`
+```
 git clone https://github.com/SannusGitHub/web-based-ascii
 cd web-based-ascii
-`
+```
 2. Run the server:
-`go run .`
+```go run .```
 or
-`go run main.go`
+```go run main.go```
 2. Open your browser and visit:
-`http://localhost:8080`
+```http://localhost:8080```
 
 DETAILS:
 The algorithm is a basic (and rather inefficient) O(n^3) implementation which just goes over the text letter by letter and prints it until all eight rows are filled

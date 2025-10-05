@@ -1,3 +1,5 @@
+# 
+
 DESCRIPTION:
 A simple web-based ASCII art generator written in Go.
 It runs a local HTTP server that lets you create ASCII art directly from your browser. Sample project features three different fonts, and a single page to send a string of text to the backend and return an altered string to the front-end
@@ -10,7 +12,10 @@ FEATURES:
 
 USAGE:
 1. Clone the repository:
-``
+`
+git clone https://github.com/SannusGitHub/web-based-ascii
+cd web-based-ascii
+`
 2. Run the server:
 `go run .`
 or

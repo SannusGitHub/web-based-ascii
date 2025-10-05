@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/style.css" media="screen">
+</head>
+<body>
+  <div class="mainbody">
+    <h1>Sannu's Funky Font Generator</h1>
+    <p>just type in your thing and whoah there it is!</p>
+    
+    <textarea class="outputtextarea" wrap="off" readonly>{{.AsciiOutput}}</textarea>
+    
+    <form action="/ascii-art" method="post">
+      <textarea id="userTextField" name="userTextField"></textarea>
+      <div class="buttons">
+        <select id="fontType" name="fontType">
+          <option value="standard">Standard</option>
+          <option value="shadow">Shadow</option>
+          <option value="thinkertoy">Thinkertoy</option>
+        </select>
+        
+        <button id="userTextSubmit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <p style="text-align: center; font-size: 10px;">made by sannu, 2023</p>
+</body>
